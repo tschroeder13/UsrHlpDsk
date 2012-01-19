@@ -1,0 +1,16 @@
+<plugin name='console-enhancements' version='0.5' grailsVersion='1.3.1 &gt; *'>
+  <author>Antony Jones (Desirable Objects)</author>
+  <authorEmail>aj@desirableobjects.co.uk</authorEmail>
+  <title>Grails console enhancements</title>
+  <description>Enhances the grails console output for better visibility</description>
+  <documentation>http://grails.org/plugin/grails-console-enhancements</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>ConsoleEnhancementsConfig</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>

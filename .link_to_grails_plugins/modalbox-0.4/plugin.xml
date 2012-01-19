@@ -1,0 +1,15 @@
+<plugin name='modalbox' version='0.4' grailsVersion='1.1.2 &gt; *'>
+  <author>Alexander Koehn</author>
+  <authorEmail>alibasta@gmail.com</authorEmail>
+  <title>This plugin adds the ModalBox to your Grails applications.</title>
+  <description>    ModalBox is a JavaScript technique for creating modern (Web 2.0-style) 
+    modal dialogs or even wizards (sequences of dialogs) without using 
+    conventional popups and page reloads. It's inspired by Mac OS X modal 
+    dialogs. And yes, it may also be useful for showing larger versions of images. :)
+    http://www.wildbit.com/labs/modalbox/
+    </description>
+  <resources>
+    <resource>ModalboxTagLib</resource>
+  </resources>
+  <dependencies />
+</plugin>

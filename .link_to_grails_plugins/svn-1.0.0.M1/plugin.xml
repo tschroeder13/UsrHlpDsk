@@ -1,0 +1,14 @@
+<plugin name='svn' version='1.0.0.M1' grailsVersion='1.1 &gt; *'>
+  <author>Peter Ledbrook</author>
+  <authorEmail>pledbrook@vmware.com</authorEmail>
+  <title>Subversion Plugin</title>
+  <description>Provides SVNKit as a dependency; an SvnClient class that makes it easier to work with Subversion; and integration with the Release plugin.
+</description>
+  <documentation>http://grails.org/plugin/svn</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>

@@ -1,0 +1,1 @@
+grails.converters.default.pretty.print = true

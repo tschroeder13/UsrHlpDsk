@@ -1,0 +1,17 @@
+<plugin name='spring-security-ldap' version='1.0.5' grailsVersion='1.2.3 &gt; *'>
+  <author>Burt Beckwith</author>
+  <authorEmail>beckwithb@vmware.com</authorEmail>
+  <title>LDAP authentication support for the Spring Security plugin.</title>
+  <description>LDAP authentication support for the Spring Security plugin.</description>
+  <documentation>http://grails.org/plugin/spring-security-ldap</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>DefaultLdapSecurityConfig</resource>
+  </resources>
+  <dependencies>
+    <plugin name='springSecurityCore' version='1.1 &gt; *' />
+  </dependencies>
+  <behavior />
+</plugin>

@@ -1,0 +1,4 @@
+DefaultPackage
+grails-app.taglib
+scripts
+test.integration
