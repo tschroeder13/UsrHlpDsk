@@ -18,20 +18,15 @@ class ReviewController {
 
 	def runAllChecks = {
 		def model = Review.get(1)
-
 		
 		def runResult = []
 
 		def String searchValue = params.searchFor
 		def String searchAttribute = params.searchIn
 
-//		def sessionVar = DirectoryController.SESSION_VARIABLE_NAME
-//		def Map<String, InitialDirContext> contexts = session.getAttribute(sessionVar)
-//		def checks = Check.findAll(sort: 'weight', order: 'desc')
-
 		def checks = model.checks
 		checks.each(){ Check check ->
-			def tmp = CheckService.runCheck(searchAttribute, searchValue, check)
+			def tmp = CheckService.getInstance().runCheck(searchAttribute, searchValue, check)
 			
 			runResult.add(tmp)
 		}//each check
