@@ -40,6 +40,10 @@ class CheckService {
 		def check = Check.findByTitle(checkTitle)
 		runCheck(searchAttr, searchValue, check, true)
 	}
+	
+	def runCheck(String searchAttr, String searchValue, Check check){
+		runCheck(searchAttr, searchValue, check, false)
+	}
 
 	def runCheck(String searchAttribute, String searchValue, Check check, boolean devel) {
 		this.searchAttribute = searchAttribute

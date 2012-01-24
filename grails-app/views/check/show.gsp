@@ -3,7 +3,7 @@
 <!doctype html>
 <html>
 	<head>
-		<syntax:resources name="code" languages="['Groovy', 'Java']" controls="false" />
+		<syntax:resources name="code" languages="['Groovy', 'Java']" controls="true" />
 		<meta name="layout" content="main">
 		<g:set var="entityName" value="${message(code: 'check.label', default: 'Check')}" />
 		<title><g:message code="default.show.label" args="[entityName]" /></title>
@@ -40,7 +40,7 @@
 						<span class="property-value" aria-labelledby="checkBody-label"><g:fieldValue bean="${checkInstance}" field="checkBody"/></span>
 						--%>
 						<span class="property-value" aria-labelledby="checkBody-label">
-						<syntax:format name="code" language="groovy" gutter="false">						
+						<syntax:format name="code" language="groovy" gutter="false" escapeXml="false">						
 ${fieldValue(bean: checkInstance, field: 'checkBody')}
 						</syntax:format>
 						</span>
