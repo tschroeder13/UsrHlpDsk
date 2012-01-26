@@ -23,6 +23,10 @@ class Directory {
 		return this.context
 	}
 	
+	static mapping = {
+		ssl column: 'ssl_connection'
+	}
+	
 	static transients = ['context']
 	
 	

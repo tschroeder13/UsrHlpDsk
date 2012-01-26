@@ -31,7 +31,10 @@ class Check {
 		weight(range:1..100)
 	}
 
-	static mapping = { checkBody type: 'text' }
+	static mapping = { 
+		table 'checking'
+		checkBody type: 'text'
+	}
 	
 	public String toString() {
 		return title;

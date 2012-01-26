@@ -47,15 +47,6 @@ ${fieldValue(bean: checkInstance, field: 'checkBody')}
 				</li>
 				</g:if>
 			
-				<g:if test="${checkInstance?.instruction}">
-				<li class="fieldcontain">
-					<span id="instruction-label" class="property-label"><g:message code="check.instruction.label" default="Instruction" /></span>
-					
-						<span class="property-value" aria-labelledby="instruction-label"><g:fieldValue bean="${checkInstance}" field="instruction"/></span>
-					
-				</li>
-				</g:if>
-			
 				<g:if test="${checkInstance?.weight}">
 				<li class="fieldcontain">
 					<span id="weight-label" class="property-label"><g:message code="check.weight.label" default="Weight" /></span>

@@ -174,4 +174,14 @@ class CheckService {
 				break;
 		}
 	}
+	def help = {
+		println 'Implicit variables include: \n\n ' + 
+		'ctx: the Spring application context \n' +
+		'grailsApplication: the Grails application \n'+
+		'config: the Grails configuration \n' +
+		'request: the HTTP request \n' +
+		'session: the HTTP session \n' +
+		'chkSrv: the CheckService. Use its help() method to repeat this message \n' 
+
+	}
 }
